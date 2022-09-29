@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;  
+}
+html{
+    background: url('./Images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    color:rgb(207, 224, 230);
+}
+body{
+    background-color: inherit;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.wrapper{
+    width:650px;
+    color:white;
+    background:inherit;
+    border-radius: 15px;
+    padding:30px 30px 25px;
+    border: 2px solid hotpink;
+    outline-style: solid;
+    outline-color: white;
+}
+.wrapper header{
+font-size: 35px;
+font-weight: 600;
+text-align: center;
+}
+.wrapper content{
+    margin: 35px 0;
+}
+
+.content .quote-area{
+    display:flex;
+    justify-content: center;
+}
+.quote-area .autoquotes{
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: center;  
+}
+.quote-area i{
+    font-size: 15px;
+}
+.quote-area i:first-child{
+    margin:3px 10px 0 0;
+}
+.quote-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin:0 0 23px 10px ;
+}
+.quote-area .autoquotes{
+    font-size: 22px;
+    text-align: center;
+}
+.content .authorname{
+display: flex;
+font-size: 18px;
+font-style: italic;
+justify-content: flex-end;
+
+}
+.author span:first-child{
+    margin:7px 5px 0 0;
+    font-family: monospace;
+}
+.wrapper .buttons{
+    border-top: 1px solid #ccc;
+    margin-top: 20px;;
+
+}
+.buttons .features{
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    justify-content: space-between;
+}
+.features ul{
+    display: flex;
+}
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height:47px;
+    width:47px;
+    display:flex;
+    color:inherit;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border:2px solid white;
+}
+#button {
+    border:none;
+    outline:none;
+    cursor: pointer;
+    color:palevioletred;
+    font-style: 16px;
+    padding:13px 22px;
+    border-radius: 30px;
+    background: white;
+    border:inherit;
+}
+
